@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment3</title>
+	<style>
+		
+	.div1{
+		 
+		 width: 400px;
+		 height: 700px;
+		 background-color: #3366ff;
+	}
+	.a1{
+		padding: 10px 10px 0px 10px;
+		margin-left: 10px;
+		font-weight: bold;
+		color:white;
+	}
+	
+	.p1{
+
+		margin-left: 10px;
+		padding: 5px;
+		width: 350px;
+		border-radius: 5px;
+		background-color: #b3c6ff;
+
+
+	}
+	.input{
+
+			margin-left: 40px;
+			width: 200px;
+	}
+	.button{
+
+		border-radius:25px;
+	}
+	
+	</style>
+</head>
+<body>
+<div class="div1">
+	<form>
+		<h4 class="a1">Step 1: Your details</h4>
+		<div class="div2">
+			<p class="p1"><label> Name </label><input class="input" type="text" name="name" ></p>
+			<p class="p1"><label> Email </label><input class="input" type="email" name="email"></p>
+			<p class="p1"><label> Phone </label><input class="input" type="text" name="phone"></p>
+		</div>
+
+		<h4 class="a1">Step 1: Delivery address</h4>
+		<div class="div2">
+			<p class="p1"><label> Address </label><textarea class= "input" type="text" name="add" rows="3" cols="10"></textarea></p>
+			<p class="p1"><label> Post code </label><input class="input" type="text" name="post"></p>
+			<p class="p1"><label> Country </label><input class="input" type="text" name="country"></p>
+		</div>
+
+		<h4 class="a1">Step 1: Card details</h4>
+		<div class="div2">
+			<p class="p1"><label> Card type</label></br>
+			<input type="radio" name="card" value="VISA"><img src="image1.png">VISA
+			<input type="radio" name="card" value="AmEx"><img src="image2.png">AmEx
+			<input type="radio" name="card" value="Mastercard"><img src="image3.png">Mastercard </p>
+			<p class="p1"><label> Card Number</label><input class="input" type="text" name="cnumber" ></p>
+			<p class="p1"><label> Security Code </label><input class="input" type="text" name="scode"></p>
+			<p class="p1"><label> Name on card </label><input class="input" type="text" name="namecard" ></p>
+		</div>
+		<div>
+	
+			<input style="color : white; background-color: blue; border-radius: 25px; margin-left : 150px;"   type="button" name="btn" value=" BUY IT!">
+	
+		</div>
+
+			
+	</form>
+</div>
+
+</body>
+</html>
